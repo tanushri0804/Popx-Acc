@@ -15,7 +15,7 @@ const Welcome = () => {
         ) : view === "signup" ? (
           <Signup goBack={() => setView("welcome")} goToAccount={() => setView("account")} />
         ) : view === "account" ? (
-          <AccountSettings />
+            <AccountSettings goBack={() => setView("welcome")} />
         ) : (
           <div className="welcome-box">
             <h2>Welcome to PopX</h2>

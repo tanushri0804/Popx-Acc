@@ -52,4 +52,18 @@
     margin-top: 10px;
     color: #444;
   }
+  .back-btn {
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    background: #6c757d;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .back-btn:hover {
+    background: #5a6268;
+  }
   
